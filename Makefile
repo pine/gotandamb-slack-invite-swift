@@ -1,4 +1,5 @@
 # Copyright IBM Corporation 2016
+# Copyright (c) Pine Mizune 2016
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -23,7 +24,7 @@ Kitura-Build/build/Makefile:
 	git submodule update --remote --merge
 
 run: build
-	@echo --- Invoking KituraSample executable
-	./.build/debug/KituraSample
+	@echo --- Invoking SlackInvite executable
+	./.build/debug/SlackInvite
 
 .PHONY: run
